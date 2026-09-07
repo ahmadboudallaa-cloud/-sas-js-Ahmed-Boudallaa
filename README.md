@@ -7,9 +7,9 @@
 
 | Information | À compléter |
 |---|---|
-| Nom et prénom | ... |
-| Classe | ... |
-| Nom d'utilisateur GitHub | ... |
+| Nom et prénom | Boudallaa Ahmed |
+| Classe | Amine |
+| Nom d'utilisateur GitHub | ahmadboudallaa |
 
 ## 🧭 Comment travailler
 
