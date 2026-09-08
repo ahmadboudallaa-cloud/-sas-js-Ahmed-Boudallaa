@@ -17,13 +17,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let panier = 350;
+let panier = 50;
+let livraison = "Gratuit";
 
 if (panier >= 200 && panier < 500){
-    console.log("Coût final: " + panier + " MAD , Livraison: Gratuite ")
+    console.log("Coût final: " + panier + " MAD ,  Livraison: " + livraison)
 }else if (panier >= 500){
    panier*=0.90
-     console.log("Coût final: " + panier + " MAD , Livraison: Gratuite ")
+     console.log("Coût final: " + panier + " MAD , Livraison: " + livraison)
  }else{
-     console.log("Coût final: " + panier + " MAD , Livraison: payant ")
+    livraison = "payent"
+     console.log("Coût final: " + panier + " MAD , Livraison: " + livraison)
 }

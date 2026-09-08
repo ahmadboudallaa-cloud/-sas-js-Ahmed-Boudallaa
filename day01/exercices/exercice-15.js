@@ -17,4 +17,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let prixExtrait = " 349.99 MAD ";
+
+let prixPropt = prixExtrait.trim().replace("MAD","")
+
+let prixType = Number(prixPropt)
+
+let prixTotal = prixType * 2
+
+console.log(prixTotal)

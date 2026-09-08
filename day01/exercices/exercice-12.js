@@ -19,7 +19,7 @@
 // 2. Écris ta solution sous cette ligne.
 let annee = 2024 ;
 
-if(annee % 4 == 0){
+if((annee % 4 == 0 && annee % 100 != 0)|| annee % 400 == 0  ){
     console.log(annee + " est une année bissextile.")
 }else{
     console.log(annee + " est une année ordinaire.")
