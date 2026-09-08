@@ -20,3 +20,11 @@
 let joueur1 = "Pierre"
 let joueur2 = "Ciseaux"
 
+if(joueur1 == "Pierre" && joueur2 == "Ciseaux" || joueur1 == "feuille" && joueur2 == "pierre" || joueur1 == "Ciseaux" && joueur2 == "feuille"){
+      console.log("Joueur 1 gagne !")
+}else if (joueur2 == "Pierre" && joueur1 == "Ciseaux" || joueur2 == "feuille" && joueur1 == "pierre" || joueur2 == "Ciseaux" && joueur1 == "feuille"){
+      console.log("Joueur 2 gagne !")
+}else{
+    console.log("egalite")
+}
+

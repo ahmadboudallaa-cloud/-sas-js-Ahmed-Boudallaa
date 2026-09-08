@@ -17,7 +17,7 @@
 let number = " 0612334567 "
 
 
-if(typeof number === "string" && number.trim().length === 10){
+if(typeof number === "string" && number.trim().length == 10){
     console.log("numero valide")
 }else{
     console.log("Numéro invalide")
