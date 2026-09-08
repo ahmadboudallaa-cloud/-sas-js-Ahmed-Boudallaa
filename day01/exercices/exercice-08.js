@@ -13,5 +13,8 @@
 'use strict';
 
 // 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+// 2. Écris ta solution sous cette ligne
+let ressultat1 = (10 == "10")
+let ressultat2 = (10 === "10")
+console.log(ressultat1)
+console.log(ressultat2)
