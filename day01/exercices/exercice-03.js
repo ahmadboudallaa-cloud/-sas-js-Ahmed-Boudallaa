@@ -17,4 +17,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const HT = 200;
+const TVA = 0.20;
+let TTC =  HT + (HT * TVA);
+console.log(TTC);

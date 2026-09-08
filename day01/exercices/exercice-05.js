@@ -17,4 +17,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nombre = 15 ;
+let reste = 15%2;
+ 
+if(reste === 0){
+    console.log("pair")
+}else{console.log("impair")}
+
