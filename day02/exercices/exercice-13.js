@@ -12,6 +12,20 @@
  */
 'use strict';
 
-// 1. Identifie les données nécessaires.
+// 1. Identifie les données nécessaires.   
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let a = 0;
+let b = 1;
+let suivant ;
+console.log(a)
+console.log(b)
+
+for(let i = 1 ; i <= 8; i++){
+   
+suivant = a + b ;
+a = b ;
+b = suivant ;
+
+console.log(suivant)
+}
+

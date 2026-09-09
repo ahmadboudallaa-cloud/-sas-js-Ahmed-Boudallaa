@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nb = 29;
+let estPremier = true;
+for(let i = 2 ; i <= 28 ; i++){
+    if(nb % i == 0){
+   estPremier = false;
+   break ;
+
+    }
+}
+if(estPremier )
+    {console.log(nb + " est un nombre premier")}
+
+else{
+    console.log(nb + " n'est pas un nombre premier")
+}
