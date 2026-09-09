@@ -9,4 +9,6 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+for(let i = 0 ; i <= 5 ; i++){
+    console.log(i)
+}

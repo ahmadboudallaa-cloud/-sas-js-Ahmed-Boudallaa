@@ -9,4 +9,4 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let N = 100;
