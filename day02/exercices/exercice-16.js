@@ -20,14 +20,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-for(let i = 1 ; i < 5 ; i++){
+for(let i = 1 ; i <= 5 ; i++){
     let ligne = "";
     for( let a = 1 ; a <= 5 - i ; a++){
         
         ligne += " "
-       for(let b = 1 ; b <= 2 * i   ; b++){
+
+       
+    }for(let b = 1 ; b <= 2 * i - 1  ; b++){
         ligne += "*"
        }
-    }
    console.log(ligne)
 }

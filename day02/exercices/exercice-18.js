@@ -18,17 +18,4 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-let n = 6
- let compteur =0 ;
-
- for(let i = 1 ; i <= n ; i++){
-
-if(n % 2 == 0){
-
-  compteur ++
- 
-}
- console.log(compteur)
- }
-
 
