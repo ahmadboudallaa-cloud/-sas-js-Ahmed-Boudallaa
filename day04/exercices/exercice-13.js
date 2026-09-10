@@ -14,4 +14,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+// let motDePasseValide ;
+// function genererMotDePasse(longeur){
+//     for(let i = 1 ; i <= longeur ; i++){
+//         let x  ;
+//         for(let a = 1 ; a <= x ; )
+//     }
+// }
