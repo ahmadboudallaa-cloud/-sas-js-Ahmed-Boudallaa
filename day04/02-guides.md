@@ -37,7 +37,6 @@ Utilisez le mot-clé `function`, définissez le nom, puis les paramètres entre 
 - [ ] Je peux expliquer chaque étape.
 
 
----
 
 ## 🧩 Guide 02 — Comprendre la Portée (Scope)
 

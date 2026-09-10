@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function trouverMax(a , b , c){
+if(a > b && a > c){
+    return a ;
+}else if(b > c && b > a) {
+    return b;
+}else if(c > a && c > b){
+    return c ;
+}else{
+    return "egaliter"
+}
+
+
+}
+
+console.log(trouverMax(100 , 10 , 500005))

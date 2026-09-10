@@ -15,4 +15,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function estPalindrome(mot){
+let palindrome = true;
+
+for(let i = 0 ; i <= mot.length ; i++){
+
+    if(mot[i] != mot[mot.length - 1 - i]){
+palindrome = false ; 
+break;
+    }
+    
+}
+return palindrome ; 
+}
+console.log(estPalindrome("sas"))

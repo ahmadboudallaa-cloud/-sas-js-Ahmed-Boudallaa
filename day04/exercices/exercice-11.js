@@ -14,4 +14,26 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+// let somme = 1 ;
+// for(let i = 6 ; i >= 1 ; i-- ){
+
+// somme *= i
+
+
+// }
+// console.log(somme)
+
+function calculerFactorielle(n){
+    let somme = 1;
+    for(let i = n ; i >= 1 ; i-- ){
+        if(n == 0){
+            return 1 ;
+        }else{
+            somme *= i
+        }
+    }
+
+    return somme ;
+}
+
+console.log(calculerFactorielle(6))

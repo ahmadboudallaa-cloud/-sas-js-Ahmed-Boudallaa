@@ -9,4 +9,10 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+function testScope(){
+     let secret = "123";
+}
+console.log(secret)
+
+
+// j'ai recue error "secret is not defined"
