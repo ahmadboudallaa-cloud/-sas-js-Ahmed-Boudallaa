@@ -21,4 +21,30 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let or = 0 ;
+function ajouterOr(montant){
+     or += montant
+    console.log("ta gagner : "+ montant + " le total d'or et : "+ or);
+
+}
+
+function depenserOr(montant){
+
+    if(montant <= or){
+        or -= montant
+        console.log("achat reussi") 
+    }else{
+        console.log("Fonds insuffisants")
+    }
+}
+
+function combatGagne(){
+   let combat = Math.floor(Math.random()* 41 ) + 10
+   
+ajouterOr(combat);
+}
+
+combatGagne()
+depenserOr(15)
+
+
