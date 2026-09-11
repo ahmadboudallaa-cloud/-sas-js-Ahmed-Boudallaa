@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function capitaliser(mot){
+
+  console.log(mot[0].toUpperCase() + mot.slice(1).toLowerCase())
+
+}
+
+capitaliser("ahmed")

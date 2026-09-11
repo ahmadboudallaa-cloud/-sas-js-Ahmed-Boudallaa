@@ -23,4 +23,28 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let motInterdit = ["noob", "idiot", "nul"];
+
+function filtrerMessage(message){
+let filMessage = message.toLowerCase().split(" ")
+let etoile = "*"
+let messageFiltrer = message;
+
+for(let i = 0 ; i<= filMessage.length - 1 ; i++){
+  for(let a = 0 ; a <= motInterdit.length -1 ; a++){
+if(filMessage[i] == motInterdit[a]){
+     
+
+    messageFiltrer = message.replace(filMessage[i] , etoile.repeat(filMessage[i].length))
+    
+   return messageFiltrer
+
+}
+
+    
+  }
+
+}
+}
+
+console.log(filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!"))
