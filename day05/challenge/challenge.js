@@ -26,25 +26,34 @@
 let motInterdit = ["noob", "idiot", "nul"];
 
 function filtrerMessage(message){
+let messageTab = message.split(" ");
 let filMessage = message.toLowerCase().split(" ")
-let etoile = "*"
-let messageFiltrer = message;
+let etoile = "*";
 
+
+// for(let b = 0 ; b <= messageTab.length -1; b++){
 for(let i = 0 ; i<= filMessage.length - 1 ; i++){
   for(let a = 0 ; a <= motInterdit.length -1 ; a++){
 if(filMessage[i] == motInterdit[a]){
-     
-
-    messageFiltrer = message.replace(filMessage[i] , etoile.repeat(filMessage[i].length))
     
-   return messageFiltrer
+    
+console.log( filMessage[i].replace(filMessage[i] , etoile.repeat(filMessage[i].length)))
+  
 
 }
-
+ 
     
+  // }
+
+
+  
+
   }
 
 }
-}
+ }
 
-console.log(filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!"))
+
+
+
+filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!")

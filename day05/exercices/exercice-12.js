@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let phrase = "Bonjour le monde";
+let phraseTab = phrase.split(" ")
+let result = "";
+
+for(let i = phraseTab.length - 1 ; i >= 0  ; i--){
+
+
+   result += (phraseTab[i] + " ")
+
+}
+console.log(result)
