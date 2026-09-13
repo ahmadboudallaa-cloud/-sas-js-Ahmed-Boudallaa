@@ -15,4 +15,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let mot1 = "chien";
+let lettre1 = mot1.trim().split("").sort().join("");
+let mot2 = "niche";
+let lettre2 = mot2.trim().split("").sort().join("")
+
+
+if(lettre1 == lettre2 ){
+
+console.log("ils sont des anagrammes")
+
+
+
+}else{
+    console.log("ils ne sont pas des anagrammes ")
+}
