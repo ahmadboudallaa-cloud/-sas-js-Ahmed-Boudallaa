@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function tablaux(nombres){
+    let tab2 = [];
+    for(let i = 0 ; i <nombres.length ; i++){
+   if(nombres[i] % 2 == 0){
+    tab2.push(nombres[i])
+   }
+    
+    }
+    return tab2 ;
+}
+console.log(tablaux([55,8,99,44,22]))
