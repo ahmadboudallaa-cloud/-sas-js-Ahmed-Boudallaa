@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function tableau(data){
+    let result = [];
+
+    for(let i = 0 ; i <data.length ; i++){
+
+        if(typeof data[i] === "number"){
+            result.push(data[i])
+        }
+    }
+    return result
+}
+
+console.log(tableau(["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]))
+
+
+

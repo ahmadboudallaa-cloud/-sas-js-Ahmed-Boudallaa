@@ -14,4 +14,9 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nombres = [1,2,3]
+
+nombres.unshift(nombres[nombres.length - 1])
+nombres.pop(nombres[nombres.length - 1])
+
+console.log(nombres)
