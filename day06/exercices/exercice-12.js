@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function doublons(nombres){
+for(let i = 0 ; i < nombres.length ; i++){
+  if(nombres[i] == nombres[i+1]){
+    nombres.splice(i+1 , 1)
+  }
+
+
+}
+return nombres
+}
+console.log(doublons([1, 2, 2, 3, 4, 4, 5]))
