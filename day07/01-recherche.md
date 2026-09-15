@@ -25,7 +25,7 @@
 
 > À compléter avec mes propres mots.
 
----
+la 1er pour les propriete simple et la 2eme pour les propriete avec espace ou caractere special ou propriete dynamique
 
 ### Question 02
 
@@ -37,7 +37,7 @@
 
 > À compléter avec mes propres mots.
 
----
+le resultat serait undefined
 
 ### Question 03
 
@@ -49,7 +49,7 @@
 
 > À compléter avec mes propres mots.
 
----
+en peut utiliser soit les crochets ou la notation pointee
 
 ### Question 04
 
@@ -61,7 +61,7 @@
 
 > À compléter avec mes propres mots.
 
----
+en la supp avec delete
 
 ### Question 05
 
@@ -73,7 +73,7 @@
 
 > À compléter avec mes propres mots.
 
----
+en utilise for...in
 
 ### Question 06
 
@@ -85,7 +85,7 @@
 
 > À compléter avec mes propres mots.
 
----
+Le mot-clé this représente généralement l'objet qui possède la méthode.
 
 ### Question 07
 
@@ -97,7 +97,7 @@
 
 > À compléter avec mes propres mots.
 
----
+C'est un format de texte utilisé principalement pour échanger et stocker des données.
 
 ### Question 08
 
@@ -109,7 +109,7 @@
 
 > À compléter avec mes propres mots.
 
----
+La méthode native est JSON.stringify()
 
 ### Question 09
 
@@ -121,7 +121,7 @@
 
 > À compléter avec mes propres mots.
 
----
+La méthode native est JSON.parse()
 
 ### Question 10
 
@@ -133,7 +133,7 @@
 
 > À compléter avec mes propres mots.
 
-
+Cela signifie que obj1 et obj2 pointent vers le même objet en mémoire. Ils ne sont pas deux objets différents.
 ## ✅ Validation de la recherche
 
 - [ ] Je peux expliquer au moins trois réponses sans lire mes notes.
