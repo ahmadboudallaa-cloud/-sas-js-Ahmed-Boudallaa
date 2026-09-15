@@ -11,5 +11,6 @@
 
 // TODO: écris ta solution ici.
 let fruits = ["Pomme", "Banane", "Orange"]
- fruits[1] = "mangue";
+ let position = fruits.indexOf("Banane")
+  fruits[position] = "Mangue"
 console.log(fruits[fruits.length - 1])
