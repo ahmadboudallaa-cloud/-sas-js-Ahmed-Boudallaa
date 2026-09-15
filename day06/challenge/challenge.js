@@ -20,6 +20,8 @@
 
 // Découpe d'abord le problème en petites étapes.
 let panier = [101,101, 105, 101, 102];
+let result = [];
+let dejaVue = [];
 function ajouterAuPanier(id){
     panier.push(id)
     return panier
@@ -41,14 +43,27 @@ return panier
 
 function  afficherQuantites(){
 
-    for(let i = 0 ; i < panier ; i++){
+    for(let i = 0 ; i < panier.length ; i++){
+        let compteur = 0 ; 
+         for(let a=0 ; a < panier.length ; a++){
+   
+        if(panier[i] == panier[a]){
+   
+           ++compteur
+    
+            
+        }
+        }if(dejaVue.includes(panier[i])){
+         
+             dejaVue.push(panier[i])
+        }else{
+             result.push("article " + panier[i] + " : " + compteur + " exemplaires")
+             dejaVue.push(panier[i])
+        }
 
-if(panier[i]==panier[i]){
-
-
-}
 
     }
+return result
 }
 
-console.log(retirerDuPanier(102))
+console.log(afficherQuantites(panier))

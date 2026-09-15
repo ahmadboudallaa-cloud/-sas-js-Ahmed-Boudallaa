@@ -14,4 +14,24 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let tab =  [10, 20, 30, 40, 45, 50, 60] ;
+let recherche = 45;
+let debut = 0 ;
+let fin = 6;
+
+
+while(debut <= fin){
+    let milieu = Math.floor((debut + fin) / 2)
+if(tab[milieu] <  recherche){
+
+debut = milieu + 1
+
+}else if(tab[milieu] >  recherche){
+
+    fin = milieu - 1
+}else{
+    console.log( tab[milieu])
+    break ;
+}
+
+}

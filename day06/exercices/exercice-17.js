@@ -14,4 +14,34 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function mots(tableau){
+
+ let result = [];
+ let dejaVue = [];
+
+    for(let i=0 ; i<tableau.length ; i++){
+        let compteur = 0;
+        for(let a=0 ; a<tableau.length ; a++){
+   
+        if(tableau[i] == tableau[a]){
+   
+           ++compteur
+    
+            
+        }
+        }
+        
+        if(dejaVue.includes(tableau[i])){
+         
+             dejaVue.push(tableau[i])
+        }else{
+             result.push(tableau[i] + ":" + compteur)
+             dejaVue.push(tableau[i])
+        }
+        
+ 
+    }
+   
+return result
+}
+console.log( mots( ["pomme", "banane", "pomme", "orange", "banane", "pomme"]))
